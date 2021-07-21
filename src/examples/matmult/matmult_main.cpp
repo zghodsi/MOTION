@@ -106,7 +106,8 @@ std::vector<Combination> GenerateAllCombinations() {
 
     const std::array kArithmeticBitSizes = {8, 16, 32, 64};
     const std::array kNumbersOfSimd = {1};
-    const std::array kDim = {5, 10, 15, 20};
+    //const std::array kDim = {5, 10, 15, 20};
+    const std::array kDim = {5, 10};
 
     std::vector<Combination> combinations;
 
